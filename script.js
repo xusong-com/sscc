@@ -10,8 +10,19 @@ console.log("xxx")
 function primeNumber(){
     console.log("primeNumber start");
     let N = inputText("txtPrimeNumber");
+
+    if (/^\d+$/.test(N)) {
+    } else {
+       showText("txtPrimeNumberResult","判定できません");
+       return;
+    }
+
     console.log("N=", N);
     N = Number(N)
+    if (N <= 0){
+        showText("txtPrimeNumberResult","判定できません");
+        return;
+    }
     let S = 0;
     let T = 1;
     let U = N;
