@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Zen Maru Gothic';
+    height: 100%;
+    margin: 0;
+    color: #000000;
+}
+
+header{
+    font-family: 'Mochiy Pop One';
+    text-align: center;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 427px;
+    text-align: center;
+    font-size: 54px;
+    
+    padding-top: 150px;
+    color: #cccc99;
+}
+
+.introduction {
+    background-color: #cce9f0;
+}
+
+.title {
+    border-left-style: solid;
+    margin-left: 40px;
+    padding-left: 20px;
+    border-width: 10px;
+    font-size: 32px;
+}
+
+.main{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #336666;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.hide{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 10px;
+}
+
+.howToUse{
+    background-image: url(img/calculator.jpg);
+    background-size: cover;
+}
+
+.main-h{
+    margin: 70px;
+    font-size: 20px;
+    background-color:aliceblue;
+    margin-right: 500px;
+}
