@@ -61,6 +61,19 @@ header{
     background-color:aliceblue;
     margin-right: 500px;
 }
+
 input[readonly]{
     background-color: gainsboro;
+}
+
+.use{
+    background-color: #aaffdd;
+}
+
+.using{
+    margin: 70px;
+}
+
+.footer{
+    text-align: center;
 }
