@@ -70,6 +70,9 @@ header{
 input[readonly]{
     background-color: gainsboro;
 }
+input[type=number]{
+    width: 40%;
+}
 
 input{
     height: 50px;
