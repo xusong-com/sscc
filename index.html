@@ -12,16 +12,17 @@
 
 <section class="howToUse">
     <h2 class="title">このサイトの使い方</h2>
-    <p class="main-h">素数かどうか調べたいなら素数判定機、完全数かどうか調べたいなら完全数判定機に移動してください。<br>
-        そこで1以上の整数を入力するだけです</p>
+    <div class="main-h">素数かどうか調べたいなら素数判定機、完全数かどうか調べたいなら完全数判定機に移動してください。<br>
+        そこで1以上の整数を入力するだけです
+    </div>
 </section>
 
 <section class="use">
     <h2 class="title">素数判定機</h2>
     <div class="using">
-        <input type="text" id="txtPrimeNumber">
-        <button onclick="primeNumber()">判定</button>
-        <input readonly type="text" id="txtPrimeNumberResult">
+        <input type="text" id="txtPrimeNumber"/>
+        <input type="button" onclick="primeNumber()" value="判定"/>
+        <input readonly type="text" id="txtPrimeNumberResult"/>
     </div>
 </section>
 
@@ -29,7 +30,7 @@
     <h2 class="title">完全数判定機</h2>
     <div class="using">
         <input type="text" id="txtCompleteNumber">
-        <button onclick="completeNumber()">判定</button>
+        <input type="button" onclick="completeNumber()" value="判定"/>
         <input readonly type="text" id="txtCompleteNumberResult">
     </div>
 </section>

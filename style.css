@@ -59,13 +59,19 @@ header{
 .main-h{
     margin: 10px;
     margin-left: 70px;
+    margin-right: 70px;
     font-size: 20px;
     background-color:aliceblue;
-    margin-right: 500px;
+    width: fit-content;
 }
 
 input[readonly]{
     background-color: gainsboro;
+}
+
+input{
+    height: 50px;
+    font-size: 30px;
 }
 
 .use{
